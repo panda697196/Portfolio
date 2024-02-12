@@ -1,6 +1,16 @@
 import { Socials } from "@/constants";
 import Image from "next/image";
 import React from "react";
+import { DotGothic16,Press_Start_2P } from "next/font/google"
+
+const DotGothic = DotGothic16({
+  weight: "400",
+  subsets: ["latin"],
+});
+const PressStart2P = Press_Start_2P({
+  weight: "400",
+  subsets: ["latin"],
+});
 
 const Navbar = () => {
   return (
@@ -11,27 +21,27 @@ const Navbar = () => {
           className="h-auto w-auto flex flex-row items-center"
         >
           <Image
-            src="/NavLogo.png"
+            src="/Mii.png"
             alt="logo"
             width={70}
             height={70}
             className="cursor-pointer hover:animate-slowspin"
           />
 
-          <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            WebChain Dev
+          <span className={`${DotGothic.className} font-bold ml-[10px] hidden md:block text-gray-300 text-lg text-2xl`} >
+            滕 宇軒
           </span>
         </a>
 
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#about-me" className="cursor-pointer">
+            <a href="#about-me" className={`${PressStart2P.className} cursor-pointer`}>
               About me
             </a>
-            <a href="#skills" className="cursor-pointer">
+            <a href="#skills" className={`${PressStart2P.className} cursor-pointer`}>
               Skills
             </a>
-            <a href="#projects" className="cursor-pointer">
+            <a href="#projects" className={`${PressStart2P.className} cursor-pointer`}>
               Projects
             </a>
           </div>
@@ -47,6 +57,7 @@ const Navbar = () => {
               height={24}
             />
           ))}
+
         </div>
       </div>
     </div>

@@ -10,6 +10,7 @@ import {
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 
+
 const HeroContent = () => {
   return (
     <motion.div
@@ -38,7 +39,7 @@ const HeroContent = () => {
               {" "}
               the best{" "}
             </span>
-            project exprience
+            project experience
           </span>
         </motion.div>
 
