@@ -82,19 +82,14 @@ export const Skill_data = [
   
   export const Socials = [
     {
+      name: "Github",
+      src: "/gitwhite.png",
+      link: "https://github.com/panda697196?tab=repositories",
+    },
+    {
       name: "Discord",
-      src: "/instagram.svg",
-      link: "https://www.instagram.com/your_instagram_account",
-    },
-    {
-      name: "Facebook",
-      src: "/facebook.svg",
-      link: "https://www.instagram.com/your_instagram_account",
-    },
-    {
-      name: "Instagram",
       src: "/discord.svg",
-      link: "https://www.instagram.com/your_instagram_account",
+      link: "https://discord.com/invite/Ae5j7mJY",
     },
   ];
   
