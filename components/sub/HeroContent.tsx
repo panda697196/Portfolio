@@ -25,7 +25,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
+            Teng Yuxuan&apos;s Portfolio
           </h1>
         </motion.div>
 
@@ -34,28 +34,23 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Providing
+            Practice is
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
               the best{" "}
             </span>
-            project experience
+            way to learn!
           </span>
         </motion.div>
 
         <motion.p
-          variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+            variants={slideInFromLeft(0.8)}
+            className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          幅広い興味を持つ留学生です<br/>
+          最近はとても充実した日々を送っております
         </motion.p>
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
-          Learn More!
-        </motion.a>
+
       </div>
 
       <motion.div
@@ -69,6 +64,10 @@ const HeroContent = () => {
           width={650}
         />
       </motion.div>
+      <motion.div>
+
+      </motion.div>
+
     </motion.div>
   );
 };
