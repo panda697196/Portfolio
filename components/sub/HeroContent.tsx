@@ -23,8 +23,8 @@ const HeroContent = () => {
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
-          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px]">
+          <SparklesIcon className="text-[#b49bff] mr-[10px] h-10 w-10" />
+          <h1 className="Welcome-text text-[14px]">
             Teng Yuxuan&apos;s Portfolio
           </h1>
         </motion.div>
@@ -45,7 +45,7 @@ const HeroContent = () => {
 
         <motion.p
             variants={slideInFromLeft(0.8)}
-            className="text-lg text-gray-400 my-5 max-w-[600px]"
+            className="text-2xl text-gray-400 my-5 max-w-[600px]"
         >
           幅広い興味を持つ留学生です<br/>
           最近はとても充実した日々を送っております
@@ -64,9 +64,7 @@ const HeroContent = () => {
           width={650}
         />
       </motion.div>
-      <motion.div>
 
-      </motion.div>
 
     </motion.div>
   );
