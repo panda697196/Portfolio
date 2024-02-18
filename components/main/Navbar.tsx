@@ -2,6 +2,7 @@ import { Socials } from "@/constants";
 import Image from "next/image";
 import React from "react";
 import { DotGothic16,Press_Start_2P } from "next/font/google"
+import AudioPlayer from '@/components/sub/AudioPlayer';
 
 const DotGothic = DotGothic16({
   weight: "400",
@@ -47,7 +48,8 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex flex-row gap-5">
+        <div className="flex flex-row items-start gap-5">
+          <AudioPlayer/>
           {Socials.map((social) => (
               <a href={social.link} target="_blank" rel="noopener noreferrer" key={social.name}>
                 <Image
