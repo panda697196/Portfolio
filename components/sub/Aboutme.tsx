@@ -35,7 +35,7 @@ const Aboutme = () => {
                     className="w-full h-full flex justify-center items-center rounded-full overflow-hidden"
                 >
                     <Image
-                        src="/IMG5390.jpg"
+                        src="/IMG_5390.jpg"
                         alt="My picture"
                         height={400}
                         width={400}
