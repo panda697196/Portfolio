@@ -248,8 +248,44 @@ export const Skill_data = [
       height: 60,
     },
   ];
-  
-  
+
+
+export const Language = [
+  {
+    skill_name: "python",
+    Image: "/Python.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Java Script",
+    Image: "/js.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "C#",
+    Image: "/Cs.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Type Script",
+    Image: "/ts.png",
+    width: 80,
+    height: 80,
+  },
+
+
+  {
+    skill_name: "MySQL",
+    Image: "/mysql.png",
+    width: 80,
+    height: 80,
+  },
+
+
+];
   
   
   
