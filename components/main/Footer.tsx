@@ -20,6 +20,9 @@ const Footer = () => {
                 </div>
 
                 <div className="mb-[20px] text-[15px] text-center">
+                    Update will coming Soon❤
+                </div>
+                <div className="mb-[20px] text-[15px] text-center">
                     &copy; 2024
                 </div>
             </div>
