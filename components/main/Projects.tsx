@@ -27,6 +27,23 @@ const Projects = () => {
                     description="研究室開放イベントでの体感型ゲーム"
                 />
             </div>
+            <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+                <ProjectCard
+                    src="/VS7趣选配——1.webp"
+                    title="ミニアプリ「事前予約ゲーム」"
+                    description="新型車の適正価格を調査するため、価格受容性調査を行うツール"
+                />
+                <ProjectCard
+                    src="/takajyou.png"
+                    title="IVRC2023 SEED　STAGE　ハラショーな鷹匠"
+                    description="実際の鷹匠体験を疑似体験できるコンテンツ「ハラショーな鷹匠」を提供する"
+                />
+                <ProjectCard
+                    src="/breakout.png"
+                    title="体感！！ワクワクブロックくずし"
+                    description="研究室開放イベントでの体感型ゲーム"
+                />
+            </div>
 
         </div>
     );
