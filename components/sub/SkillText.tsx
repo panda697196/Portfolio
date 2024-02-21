@@ -3,6 +3,7 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion'
 import { SparklesIcon } from '@heroicons/react/24/solid'
+import SkillLevelContent from "@/components/sub/SkillLevel";
 
 const SkillText = () => {
     return (
@@ -28,6 +29,34 @@ const SkillText = () => {
             >
                 Never miss a task, deadline or idea
             </motion.div>
+            <SkillLevelContent
+                categoryName="Languages"
+                skills={[
+                    {
+                        name: 'Python',
+                        level: 5,
+                    },
+                    {
+                        name: 'JavaScript',
+                        level: 4,
+                    },
+                    {
+                        name: 'TypeScript',
+                        level: 4,
+                    },
+
+
+                    {
+                        name: 'C#',
+                        level: 3,
+                    },
+                    {
+                        name: 'MYSQL',
+                        level: 2,
+                    },
+
+                ]}
+            />
         </div>
     )
 }

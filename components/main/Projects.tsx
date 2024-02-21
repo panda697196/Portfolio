@@ -29,9 +29,9 @@ const Projects = () => {
             </div>
             <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
                 <ProjectCard
-                    src="/VS7趣选配——1.webp"
-                    title="ミニアプリ「事前予約ゲーム」"
-                    description="新型車の適正価格を調査するため、価格受容性調査を行うツール"
+                    src="/custominsighr1.png"
+                    title="カスタマーインサイト"
+                    description="ビッグデータを分析し，複数の車種の初期ターゲット顧客、リード、車オーナーに対するカスタマーインサイトを作成しました"
                 />
                 <ProjectCard
                     src="/takajyou.png"

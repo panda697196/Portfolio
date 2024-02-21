@@ -8,6 +8,10 @@ import {
 import React from "react";
 import SkillDataProvider from "../sub/SkillDataProvider";
 import SkillText from "../sub/SkillText";
+import SkillLevelContent from "@/components/sub/SkillLevel";
+
+
+
 
 const Skills = () => {
     return (
@@ -73,7 +77,9 @@ const Skills = () => {
                         index={index}
                     />
                 ))}
+
             </div>
+
 
             <div className="w-full h-full absolute">
                 <div className="w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
@@ -88,6 +94,10 @@ const Skills = () => {
                     />
                 </div>
             </div>
+
+
+
+
         </section>
     );
 };
