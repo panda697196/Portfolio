@@ -85,7 +85,7 @@ const Aboutme = () => {
             </div>
             <div className="flex flex-col items-center justify-center px-20 mt-10 w-full z-[20]">
                 <motion.div
-                    variants={slideInFromLeft(0.8)}
+                    variants={slideInFromLeft(0.5)}
                     className="rounded-lg p-8 text-gray-100 text-xl my-5 max-w-[1300px]"
                     style={{
                         backgroundImage: "linear-gradient(to right, #808080, #1b0738)", // 自定义渐变色
@@ -93,32 +93,33 @@ const Aboutme = () => {
                         backgroundColor: "rgba(0, 0, 0, 0.75)" // 背景色为半透明黑色
                     }}
                 >
+
                     <ul className="DotGothic grid gap-[15px]">
-                        経歴：<br></br>
+                        経歴：<br/>
                         <li>
                             <span className={DotGothic.className}>2015.09-2019.06：</span>
-                            <br></br>
+                            <br/>
                             北京航空航天大学 計器科学と光通信学工程学院
                         </li>
                         <li>
                             <span className={DotGothic.className}>2019.07-2021.01：</span>
-                            <br></br>
+                            <br/>
                             一汽フォルクスワーゲン自動車株式会社
                         </li>
                         <li>
                             <span className={DotGothic.className}>2022.10-2023.03：</span>
-                            <br></br>
+                            <br/>
                             東北大学 学部研究生
                         </li>
                         <li>
                             <span className={DotGothic.className}>2023.04-現在</span>
-                            <br></br>
+                            <br/>
                             東北⼤学大学院 情報科学研究科
                         </li>
-                        活動：<br></br>
+                        活動：<br/>
                         <li>
                             <span className={DotGothic.className}>2015.09-2019.06：</span>
-                            <br></br>
+                            <br/>
                             北航学生合唱団
                         </li>
 
