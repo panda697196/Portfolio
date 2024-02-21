@@ -16,6 +16,9 @@ const silkscreen_regular = Silkscreen({
 });
 
 
+
+
+
 const Aboutme = () => {
     return (
         <div>
@@ -117,12 +120,39 @@ const Aboutme = () => {
                             東北⼤学大学院 情報科学研究科
                         </li>
                         活動：<br/>
-                        <li>
-                            <span className={DotGothic.className}>2015.09-2019.06：</span>
-                            <br/>
-                            北航学生合唱団
-                        </li>
+                        <ul className="outer-ul">
+                            <li>
+                                <span className={DotGothic.className}>2015.09-2019.06：</span>
+                                <br/>
+                                北航学生合唱団に所属<br/>
+                                <ul className="inner-ul text-ml">
+                                    <li>
+                                        <span className={DotGothic.className}>2016.05，2018.06：</span>
+                                        北京学生コンクール金賞2回獲得（2年に1回）
+                                    </li>
+                                    <li>
+                                        <span className={DotGothic.className}>2018.04：</span>
+                                        全国学生コンクール金賞獲得（3年に1回）
+                                    </li>
+                                    <li>
+                                        <span className={DotGothic.className}>2018.10：</span>
+                                        国際合唱コンクール金賞獲得
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
 
+
+                        <li>
+                            <span className={DotGothic.className}>2015.09-2019.03：</span>
+                            <br/>
+                            北京市内ボランティア活動
+                        </li>
+                        <li>
+                            <span className={DotGothic.className}>2023.09：</span>
+                            <br/>
+                            IVRC 2023 SEED STAGEに参加
+                        </li>
                     </ul>
                 </motion.div>
             </div>
