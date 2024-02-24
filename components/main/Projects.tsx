@@ -1,9 +1,24 @@
-import React from "react";
+import React, { Component } from "react";
 import ProjectCard from "../sub/ProjectCard";
+import Slider from "react-slick";
+import Image from "next/image";
+import IndexCarousel from "@/components/sub/ImageSlider";
+import { Swiper, SwiperSlide } from "swiper/react"
+import { Pagination, Autoplay } from 'swiper/modules'
 
+const settings = {
+    dots: true,
+    lazyLoad: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 2
+};
 
 const Projects = () => {
     return (
+
         <div
             className="flex flex-col items-center justify-center py-20"
             id="projects"
@@ -39,11 +54,7 @@ const Projects = () => {
                     title="IVRC2023 SEED　STAGE　ハラショーな鷹匠"
                     description="実際の鷹匠体験を疑似体験できるコンテンツ「ハラショーな鷹匠」を提供する"
                 />
-                <ProjectCard
-                    src="/breakout.png"
-                    title="体感！！ワクワクブロックくずし"
-                    description="研究室開放イベントでの体感型ゲーム"
-                />
+
             </div>
 
         </div>
