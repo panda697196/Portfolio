@@ -3,7 +3,7 @@ import {
     Frontend_skill,
     Full_stack, Language,
     Other_skill,
-    Skill_data,
+    Skill_data, webFrontend,
 } from "@/constants";
 import React from "react";
 import SkillDataProvider from "../sub/SkillDataProvider";
@@ -35,7 +35,7 @@ const Skills = () => {
             </div>
 
             <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-                {Frontend_skill.map((image, index) => (
+                {webFrontend.map((image, index) => (
                     <SkillDataProvider
                         key={index}
                         src={image.Image}
@@ -45,40 +45,7 @@ const Skills = () => {
                     />
                 ))}
             </div>
-            <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-                {Backend_skill.map((image, index) => (
-                    <SkillDataProvider
-                        key={index}
-                        src={image.Image}
-                        width={image.width}
-                        height={image.height}
-                        index={index}
-                    />
-                ))}
-            </div>
-            <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-                {Full_stack.map((image, index) => (
-                    <SkillDataProvider
-                        key={index}
-                        src={image.Image}
-                        width={image.width}
-                        height={image.height}
-                        index={index}
-                    />
-                ))}
-            </div>
-            <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-                {Other_skill.map((image, index) => (
-                    <SkillDataProvider
-                        key={index}
-                        src={image.Image}
-                        width={image.width}
-                        height={image.height}
-                        index={index}
-                    />
-                ))}
 
-            </div>
 
 
             <div className="w-full h-full absolute">

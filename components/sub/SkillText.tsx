@@ -57,6 +57,39 @@ const SkillText = () => {
 
                 ]}
             />
+            <SkillLevelContent
+                categoryName="Web Frontend"
+                skills={[
+                    {
+                        name: 'Html/WXML',
+                        level: 5,
+                    },
+                    {
+                        name: 'CSS/WXSS',
+                        level: 4,
+                    },
+
+                    {
+                        name: 'Tailwind CSS',
+                        level: 4,
+                    },
+                    {
+                        name: 'React',
+                        level: 3,
+                    },
+
+
+                    {
+                        name: 'Vue.js',
+                        level: 3,
+                    },
+                    {
+                        name: 'Nuxt.js',
+                        level: 2,
+                    },
+
+                ]}
+            />
         </div>
     )
 }

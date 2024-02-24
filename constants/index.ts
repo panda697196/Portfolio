@@ -12,8 +12,8 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Java Script",
-      Image: "/js.png",
+      skill_name: "WX",
+      Image: "/wechat.png",
       width: 65,
       height: 65,
     },
@@ -283,6 +283,58 @@ export const Language = [
     width: 80,
     height: 80,
   },
+
+
+
+];
+
+export const webFrontend = [
+  {
+    skill_name: "Html 5",
+    Image: "/html.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Css",
+    Image: "/css.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Tailwind Css",
+    Image: "/tailwind.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "WX",
+    Image: "/wechat.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "React",
+    Image: "/react.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Vue",
+    Image: "/vue-2.svg",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Nuxtjs",
+    Image: "nuxt-square.svg",
+    width: 80,
+    height: 80,
+  },
+
+
+
+
 
 
 ];

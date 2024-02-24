@@ -1,20 +1,7 @@
 import React, { Component } from "react";
 import ProjectCard from "../sub/ProjectCard";
-import Slider from "react-slick";
-import Image from "next/image";
-import IndexCarousel from "@/components/sub/ImageSlider";
-import { Swiper, SwiperSlide } from "swiper/react"
-import { Pagination, Autoplay } from 'swiper/modules'
+import Carousel from "../sub/Carousel";
 
-const settings = {
-    dots: true,
-    lazyLoad: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    initialSlide: 2
-};
 
 const Projects = () => {
     return (
@@ -48,6 +35,11 @@ const Projects = () => {
                     src="/custominsighr1.png"
                     title="カスタマーインサイト"
                     description="ビッグデータを分析し，複数の車種の初期ターゲット顧客、リード、車オーナーに対するカスタマーインサイトを作成しました"
+                />
+                <ProjectCard
+                    src="/takajyou.png"
+                    title="IVRC2023 SEED　STAGE　ハラショーな鷹匠"
+                    description="実際の鷹匠体験を疑似体験できるコンテンツ「ハラショーな鷹匠」を提供する"
                 />
                 <ProjectCard
                     src="/takajyou.png"
