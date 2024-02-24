@@ -11,6 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "TYX's Portfolio",
   description: "This is Teng Yuxuan's portfolio",
+  icons:"rel: 'icon', url: '@/app/favicon.ico'",
 };
 
 export default function RootLayout({
