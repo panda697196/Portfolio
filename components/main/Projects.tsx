@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ProjectCard from "../sub/ProjectCard";
-import Carousel from "../sub/Carousel";
+
 
 
 const Projects = () => {
