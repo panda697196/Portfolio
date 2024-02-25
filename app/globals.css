@@ -77,3 +77,12 @@ html {
   margin-left: 20px;
   font-size: 0.9em;
 }
+.carousel{
+  width: 800px;
+  height: 400px;
+  border:  2px solid #999;
+}
+.swiper-slide {
+  width: 800px; 
+  height: 200px; 
+}

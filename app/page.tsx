@@ -4,6 +4,7 @@ import Image from "next/image";
 import Encryption from "@/components/main/Encryption";
 import Projects from "@/components/main/Projects";
 import Footer from "@/components/main/Footer";
+import TestCarousel from "@/components/sub/testComponent";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
           <Skills />
           <Projects />
+
       </div>
     </main>
   );

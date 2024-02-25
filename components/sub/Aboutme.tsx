@@ -138,6 +138,10 @@ const Aboutme = () => {
                                         <span className={DotGothic.className}>2018.10：</span>
                                         国際合唱コンクール金賞獲得
                                     </li>
+                                    <li>
+                                        <span className={DotGothic.className}>2016.05-2019.06：</span>
+                                        コンサート18回出演/ミュージカル7回出演
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
