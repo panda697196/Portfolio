@@ -26,8 +26,8 @@ const Projects = () => {
                     </div>
 
                     <div className="relative p-4">
-                        <h1 className="text-2xl font-semibold text-white">"ミニアプリ「事前予約ゲーム」"</h1>
-                        <p className="mt-2 text-gray-300">"新型車の適正価格を調査するため、価格受容性調査を行うツール"</p>
+                        <h1 className="text-2xl font-semibold text-white">ミニアプリ「事前予約ゲーム」</h1>
+                        <p className="mt-2 text-gray-300">新型車の適正価格を調査するため、価格受容性調査を行うツール</p>
                     </div>
                 </div>
                 
