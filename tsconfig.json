@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts","/Users/yuxuanteng/开发/portfolio/components/sub/carousel/CarouselcarTools.tsx"],
   "exclude": ["node_modules"],
 }
