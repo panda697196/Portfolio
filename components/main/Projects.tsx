@@ -19,7 +19,7 @@ const Projects = () => {
             
             <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
                 <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
-                    <div className="flex justify-center"> {/* 使用 flex 布局，水平居中 */}
+                    <div className="flex justify-center"> 
                         <div className="w-full max-w-screen-xl overflow-hidden">
                         <IndexCarouselcar/>
                         </div>
