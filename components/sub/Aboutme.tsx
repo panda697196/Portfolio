@@ -4,7 +4,10 @@ import {motion} from 'framer-motion'
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion'
 import { SparklesIcon } from '@heroicons/react/24/solid'
 import Image from "next/image";
+
+
 import { DotGothic16,Press_Start_2P,Silkscreen} from "next/font/google"
+
 
 const DotGothic = DotGothic16({
     weight: "400",
@@ -75,6 +78,7 @@ const Aboutme = () => {
 
                     </motion.p>
 
+
                 </div>
             </motion.div>
             <div className='flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]'>
@@ -142,6 +146,11 @@ const Aboutme = () => {
                                         <span className={DotGothic.className}>2016.05-2019.06：</span>
                                         コンサート18回出演/ミュージカル7回出演
                                     </li>
+                                    <li>
+
+
+                                    </li>
+
                                 </ul>
                             </li>
                         </ul>
@@ -157,9 +166,12 @@ const Aboutme = () => {
                             <br/>
                             IVRC 2023 SEED STAGEに参加
                         </li>
+
                     </ul>
                 </motion.div>
+
             </div>
+
 
         </div>
     )

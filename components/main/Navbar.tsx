@@ -59,7 +59,10 @@ const Navbar = () => {
                     height={24}
                 />
               </a>
+
           ))}
+
+
 
         </div>
       </div>
