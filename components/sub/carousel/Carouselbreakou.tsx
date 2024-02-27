@@ -38,7 +38,7 @@ function IndexCarouselbreak() {
     />
     </SwiperSlide>
     <SwiperSlide>
-    <Image src={"/photo/IMG_1530.jpg"} alt={""}
+    <Image src={"/IMG_1530.jpg"} alt={""}
     width={600}
     height={200}
     layout="responsive"
@@ -54,7 +54,7 @@ function IndexCarouselbreak() {
     />
     </SwiperSlide>
     <SwiperSlide>
-    <Image src={"/photo/IMG_1288.jpg"} alt={""}
+    <Image src={"/IMG_1288.jpg"} alt={""}
     width={600}
     height={200}
     layout="responsive"
@@ -71,7 +71,7 @@ function IndexCarouselbreak() {
     </SwiperSlide>
 
     <SwiperSlide >
-    <Image src={"/photo/P1039194.jpg"} alt={""}
+    <Image src={"/P1039194.jpg"} alt={""}
     width={600}
     height={200}
     layout="responsive"

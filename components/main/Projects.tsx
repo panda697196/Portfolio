@@ -3,6 +3,7 @@ import ProjectCard from "../sub/ProjectCard";
 import IndexCarouselcar from "../sub/carousel/CarouselcarTools";
 import IndexCarouseltaka from "@/components/sub/carousel/CarouselTakajyou";
 import IndexCarouselbreak from "@/components/sub/carousel/Carouselbreakou";
+import Image from "next/image";
 
 const Projects = () => {
     return (
@@ -11,6 +12,7 @@ const Projects = () => {
             className="flex flex-col items-center justify-center py-20"
             id="projects"
         >
+
             <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
                 My Projects
             </h1>

@@ -38,7 +38,7 @@ function IndexCarouseltaka() {
                     />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Image src={"/photo/IMG_7497.jpg"} alt={""}
+                    <Image src={"/IMG_7497.jpg"} alt={""}
                            width={600}
                            height={200}
                            layout="responsive"
@@ -54,7 +54,7 @@ function IndexCarouseltaka() {
                     />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Image src={"/photo/IMG_1061.jpg"} alt={""}
+                    <Image src={"/IMG_1061.jpg"} alt={""}
                            width={600}
                            height={200}
                            layout="responsive"
@@ -71,7 +71,7 @@ function IndexCarouseltaka() {
                 </SwiperSlide>
 
                 <SwiperSlide >
-                    <Image src={"/photo/IMG_1533.jpg"} alt={""}
+                    <Image src={"/IMG_1533.jpg"} alt={""}
                            width={600}
                            height={200}
                            layout="responsive"
