@@ -78,8 +78,6 @@ const SkillText = () => {
                         name: 'React',
                         level: 3,
                     },
-
-
                     {
                         name: 'Vue.js',
                         level: 3,
@@ -88,7 +86,42 @@ const SkillText = () => {
                         name: 'Nuxt.js',
                         level: 2,
                     },
-
+                ]}
+            />
+            <SkillLevelContent
+                categoryName="Data/Others"
+                skills={[
+                    
+                    {
+                        name: 'Numpy',
+                        level: 4,
+                    },
+                    {
+                        name: 'Scikit-learn',
+                        level: 4,
+                    },
+                    {
+                        name: 'PyTorch',
+                        level: 4,
+                    },
+                    {
+                        name: 'Matplotlib',
+                        level: 3,
+                    },
+                    {
+                        name: 'Unity',
+                        level: 3,
+                    },
+                    {
+                        name: 'Git',
+                        level: 3,
+                    },
+                    {
+                        name: 'Tableau',
+                        level: 1,
+                    },
+                    
+                    
                 ]}
             />
         </div>

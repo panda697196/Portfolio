@@ -4,6 +4,7 @@ import IndexCarouselcar from "../sub/carousel/CarouselcarTools";
 import IndexCarouseltaka from "@/components/sub/carousel/CarouselTakajyou";
 import IndexCarouselbreak from "@/components/sub/carousel/Carouselbreakou";
 import Image from "next/image";
+import Carousel from "../sub/carousel";
 
 const Projects = () => {
     return (
@@ -62,6 +63,7 @@ const Projects = () => {
                     title="カスタマーインサイト"
                     description="ビッグデータを分析し，複数の車種の初期ターゲット顧客、リード、車オーナーに対するカスタマーインサイトを作成しました"
                 />
+                
 
             </div>
 

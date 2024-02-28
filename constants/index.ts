@@ -310,8 +310,8 @@ export const webFrontend = [
   {
     skill_name: "WX",
     Image: "/wechat.png",
-    width: 80,
-    height: 80,
+    width: 90,
+    height: 90,
   },
   {
     skill_name: "React",
