@@ -5,6 +5,8 @@ import IndexCarouseltaka from "@/components/sub/carousel/CarouselTakajyou";
 import IndexCarouselbreak from "@/components/sub/carousel/Carouselbreakou";
 import Image from "next/image";
 import Carousel from "../sub/carousel";
+import IndexCarouselinsight from "../sub/carousel/Carouselinsight";
+
 
 const Projects = () => {
     return (
@@ -58,11 +60,19 @@ const Projects = () => {
             </div>
 
             <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
-                <ProjectCard
-                    src="/custominsighr1.png"
-                    title="カスタマーインサイト"
-                    description="ビッグデータを分析し，複数の車種の初期ターゲット顧客、リード、車オーナーに対するカスタマーインサイトを作成しました"
-                />
+                
+                 <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] flex-1 max-w-[600px]">
+                    <div className="flex justify-center">
+                        <div className="w-full max-w-[600px] overflow-hidden">
+                            <IndexCarouselinsight/>
+                        </div>
+                    </div>
+
+                    <div className="relative p-4">
+                        <h1 className="text-2xl font-semibold text-white">カスタマーインサイト</h1>
+                        <p className="mt-2 text-gray-300">ビッグデータを分析し，複数の車種の初期ターゲット顧客、リード、車オーナーに対するカスタマーインサイトを作成しました</p>
+                    </div>
+                </div>
                 
 
             </div>
