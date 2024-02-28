@@ -146,10 +146,20 @@ const Aboutme = () => {
                                         <span className={DotGothic.className}>2016.05-2019.06：</span>
                                         コンサート18回出演/ミュージカル7回出演
                                     </li>
-                                    <li>
+                                    <div style={{display: 'flex', justifyContent: 'center'}}>
+                                        <li>
+                                            <a href="https://music.163.com/#/artist?id=28420206" target="_blank"
+                                               rel="noopener noreferrer"
+                                               style={{
+                                                   textDecoration: 'underline',
+                                                   color: 'whitesmoke',
+                                                   cursor: 'pointer'
+                                               }}>
+                                                ストリーミング（中国語サイト）
+                                            </a>
+                                        </li>
+                                    </div>
 
-
-                                    </li>
 
                                 </ul>
                             </li>
