@@ -4,7 +4,7 @@ import IndexCarouselcar from "../sub/carousel/CarouselcarTools";
 import IndexCarouseltaka from "@/components/sub/carousel/CarouselTakajyou";
 import IndexCarouselbreak from "@/components/sub/carousel/Carouselbreakou";
 import Image from "next/image";
-import Carousel from "../sub/carousel";
+
 import IndexCarouselinsight from "../sub/carousel/Carouselinsight";
 
 
