@@ -13,7 +13,10 @@ const ModalTools = () => {
             right: 'auto',
             bottom: 'auto',
             marginRight: '-50%',
-            transform: 'translate(-50%, -50%)'
+            transform: 'translate(-50%, -50%)',
+            width: '70%',
+            height: '70%',
+            zIndex: 10000
         }
     }
     return (
