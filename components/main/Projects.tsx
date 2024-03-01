@@ -34,7 +34,6 @@ const Projects = () => {
                         <p className="mt-2 text-gray-300">新型車の適正価格を調査するため、価格受容性調査を行うツール</p>
 
                     </div>
-
                     
 
                 </div>
