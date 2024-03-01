@@ -64,8 +64,9 @@ const Projects = () => {
             </div>
 
             <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
-                
-                 <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] flex-1 max-w-[600px]">
+
+                <div
+                    className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] flex-1 max-w-[600px]">
                     <div className="flex justify-center">
                         <div className="w-full max-w-[600px] overflow-hidden">
                             <IndexCarouselinsight/>
@@ -77,7 +78,31 @@ const Projects = () => {
                         <p className="mt-2 text-gray-300">ビッグデータを分析し，複数の車種の初期ターゲット顧客、リード、車オーナーに対するカスタマーインサイトを作成しました</p>
                     </div>
                 </div>
-                
+                <div
+                    className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] flex-1 max-w-[600px]">
+                    <div className="flex justify-center">
+                        <div className="w-full max-w-[600px] overflow-hidden">
+                            <Image src={"/Unity2DGame1.png"} alt={""}
+                                   width={600}
+                                   height={200}
+                                   layout="responsive"
+                                   className="rounded-md cursor-pointer w-full h-full"
+                                   sizes="100vw"
+
+                                   style={{
+                                       width: 'auto',
+                                       height: 'auto',
+                                   }}
+                            />
+                        </div>
+                    </div>
+
+                    <div className="relative p-4">
+                        <h1 className="text-2xl font-semibold text-white">Unity2DPlatformゲーム</h1>
+                        <p className="mt-2 text-gray-300">Unityエンジンで制作された2Dアクションアドベンチャーゲーム</p>
+                    </div>
+                </div>
+
 
             </div>
 
