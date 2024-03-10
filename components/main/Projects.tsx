@@ -34,7 +34,8 @@ const Projects = () => {
                         <p className="mt-2 text-gray-300">新型車の適正価格を調査するため、価格受容性調査を行うツール</p>
 
                     </div>
-                    
+
+
 
                 </div>
                 <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] flex-1">
@@ -75,7 +76,7 @@ const Projects = () => {
 
                     <div className="relative p-4">
                         <h1 className="text-2xl font-semibold text-white">カスタマーインサイト</h1>
-                        <p className="mt-2 text-gray-300">ビッグデータを分析し，複数の車種の初期ターゲット顧客、リード、車オーナーに対するカスタマーインサイトを作成しました</p>
+                        <p className="mt-2 text-gray-300">ビッグデータを分析し，複数の車種の初期ターゲット顧客、リード（見込み客）、車オーナーに対するカスタマーインサイトを作成しました</p>
                     </div>
                 </div>
                 <div

@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import Modal from 'react-modal'
 import IndexCarouselcar from "@/components/sub/carousel/CarouselcarTools";
+import Carousel from "@/components/sub/carousel";
 
 const ModalTools = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -37,10 +38,11 @@ const ModalTools = () => {
             </button>
             <Modal isOpen={isOpen} onRequestClose={() => setIsOpen(false)} style={customStyles}>
                 <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 ">
-                    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] flex-1 backgroundColor: 'rgb(101,88,88)">
+                    <div className="relative overflow-y-auto rounded-lg shadow-lg border border-[#2A0E61] flex-1 backgroundColor: 'rgb(101,88,88)">
                         <div className="flex justify-center">
                             <div className="w-full max-w-screen-xl overflow-hidden">
-                                <IndexCarouselcar/>
+
+                                <Carousel slides={["/官网轮播图2_副本.jpg","/VS7趣选配——1.webp","/VS7趣选配——2_副本.jpg","/VS7趣选配——3.webp"]}/>
                             </div>
                         </div>
 
@@ -48,6 +50,10 @@ const ModalTools = () => {
                             <h1 className="text-2xl font-semibold text-white">ミニアプリ「事前予約ゲーム」</h1>
                             <p className="mt-2 text-gray-300">新型車の適正価格を調査するため、価格受容性調査を行うツール</p>
                         </div>
+                        <div>
+
+                        </div>
+
                     </div>
                 </div>
                 <button className="absolute top-0 right-0 m-2 px-2 py-1 rounded-md bg-gray-700 text-white"
