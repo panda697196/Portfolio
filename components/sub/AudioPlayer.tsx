@@ -18,7 +18,7 @@ export default function AudioPlayer() {
 
     return (
         <div>
-            <audio id="audioPlayer" src="/Lullaby.mp3" loop></audio>
+            <audio id="audioPlayer" src="/Leave your youth here.mp3" loop></audio>
             <button onClick={togglePlay} style={{ width: '30px', height: '30px', padding: '0', background: 'none', border: 'none' }}>
                 {isPlaying ? <img src="/pause-circle.svg" alt="Pause" /> : <img src="/play.svg" alt="Play" />}
             </button>
